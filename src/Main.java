@@ -5,9 +5,9 @@ public class Main {
         System.out.println("--- Member registration ---");
         Member aisha = Member.registerMember("P001", "Aisha Khan", "416-555-0101", "M1001", 20);
         Member daniel = Member.registerMember("P002", "Daniel Tremblay", "416-555-0102", "M1002", 34, "Premium");
-        Member.registerMember("P006", "", "416-555-0106", "M1003", 25);                 // invalid: empty name
-        Member.registerMember("P006", "Mei Chen", "416-555-0106", "M1003", 150);        // invalid: age
-        Member.registerMember("P006", "Mei Chen", "416-555-0106", "M1003", 19, "Gold"); // invalid: membership
+        Member.registerMember("P006", "", "416-555-0106", "M1003", 25);
+        Member.registerMember("P006", "Mei Chen", "416-555-0106", "M1003", 150);        
+        Member.registerMember("P006", "Mei Chen", "416-555-0106", "M1003", 19, "Gold");
 
         Librarian sarah = new Librarian("P003", "Sarah Thompson", "416-555-0103", "S2001",
                 "Circulation", 4300.00, 250.00);
