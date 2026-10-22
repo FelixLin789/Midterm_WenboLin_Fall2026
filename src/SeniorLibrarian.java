@@ -28,7 +28,6 @@ public class SeniorLibrarian extends Librarian implements Reservable {
         return super.generateReport() + String.format(" (includes leadership bonus $%.2f)", leadershipBonus);
     }
 
-    // Reservable
     @Override
     public boolean reserveBook(String bookId) {
         if (bookId == null || bookId.trim().isEmpty()) {
